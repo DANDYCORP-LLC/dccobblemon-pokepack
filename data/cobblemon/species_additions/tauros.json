@@ -1,0 +1,9 @@
+{
+  "implemented": true,
+  "target": "cobblemon:tauros",
+  "features": [
+    "paldean-breed-combat",
+    "paldean-breed-blaze",
+    "paldean-breed-aqua"
+  ]
+}

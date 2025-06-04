@@ -1,0 +1,91 @@
+{
+     "head": "head",
+     "portraitScale": 1.65,
+     "portraitTranslation": [-0.45, 2, 0],
+     "profileScale": 0.5,
+     "profileTranslation": [0, 1, 0],
+     "cry":  "bedrock(megacharizardy, cry)",
+     "poses": {
+         "battle-idle": {
+           "poseName": "battle-idle",
+           "transformTicks": 10,
+           "poseTypes": ["STAND"],
+           "isBattle": true,
+           "animations": ["bedrock(megacharizardy, battle_idle)"],
+           "quirks": [
+             {
+               "name": "blink",
+               "animations": ["bedrock(megacharizardy, blink)"]
+             }
+           ]
+         },
+       "standing": {
+         "poseName": "standing",
+         "transformTicks": 10,
+         "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE" ],
+         "isBattle": false,
+         "animations": [
+           "look",
+           "bedrock(megacharizardy, ground_idle)"
+         ],
+         "quirks": [
+           {
+             "name": "blink",
+             "animations": ["bedrock(megacharizardy, blink)"]
+           }
+         ]
+       },
+       "walking": {
+         "poseName": "walking",
+         "poseTypes": ["WALK"],
+         "animations": [
+           "look",
+           "bedrock(megacharizardy, ground_walk)"
+         ],
+         "quirks": [
+           {
+             "name": "blink",
+             "animations": ["bedrock(megacharizardy, blink)"]
+           }
+         ]
+       },
+       "hovering": {
+         "poseName": "hovering",
+         "transformTicks": 10,
+         "poseTypes": ["HOVER"],
+         "animations": [
+           "bedrock(megacharizardy, air_idle)"
+         ],
+         "quirks": [
+           {
+             "name": "blink",
+             "animations": ["bedrock(megacharizardy, blink)"]
+           }
+         ]
+       },
+       "flying": {
+         "poseName": "flying",
+         "transformTicks": 10,
+         "poseTypes": ["FLY"],
+         "animations": [
+           "bedrock(megacharizardy, air_idle)"
+         ],
+         "quirks": [
+           {
+             "name": "blink",
+             "animations": ["bedrock(megacharizardy, blink)"]
+           }
+         ]
+       },
+       "sleeping": {
+         "poseName": "sleeping",
+         "transformTicks": 10,
+         "poseTypes": [
+           "SLEEP"
+         ],
+         "animations": [
+           "bedrock(megacharizardy, sleep)"
+         ]
+       }
+     }
+  }

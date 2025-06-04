@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:gyarados",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gyarados2",
+      "model": "cobblemon:gyarados2_male.geo",
+      "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:gyarados2",
+      "model": "cobblemon:gyarados2_male.geo",
+      "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_shiny.png"
+    },
+    {
+      "aspects": ["mega"],
+      "poser": "cobblemon:gyarados_mega",
+      "model": "cobblemon:gyarados_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_mega.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "mega", "shiny" ],
+      "poser": "cobblemon:gyarados_mega",
+      "model": "cobblemon:gyarados_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0130_gyarados/gyarados_mega_shiny.png"
+    }
+  ]
+}

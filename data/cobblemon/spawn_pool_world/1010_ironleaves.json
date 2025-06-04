@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ironleaves-1",
+      "pokemon": "ironleaves",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 3.0,
+      "condition": {
+        "biomes": ["#cobblemon:is_floral"]
+      }
+    },
+    {
+      "id": "ironleaves-2",
+      "pokemon": "ironleaves",
+      "presets": ["natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 3.0,
+      "condition": {
+        "biomes": ["#minecraft:is_end"]
+      }
+    }
+  ]
+}

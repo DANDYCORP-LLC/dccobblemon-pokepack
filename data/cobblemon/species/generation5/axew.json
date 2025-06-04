@@ -1,0 +1,165 @@
+{
+    "implemented": true,
+    "name": "axew",
+    "nationalPokedexNumber": 610,
+    "primaryType": "dragon",
+
+    "evolutions": [
+        {
+            "id": "axew_fraxure_level",
+            "variant": "level_up",
+            "result": "fraxure",
+            "requirements": [
+              {
+                "variant": "level",
+                "minLevel": 38
+              }
+            ]
+        }
+    ],
+    
+    "abilities": [
+        "moldbreaker",
+        "rivalry",
+        "h:unnerve"
+    ],
+    "baseStats": {
+        "hp": 46,
+        "attack": 87,
+        "defence": 60,
+        "special_attack": 30,
+        "special_defence": 40,
+        "speed": 57
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "times": "night",
+            "light": "0-7"
+        },
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": false
+            },
+            "wanderChance": 1
+        }
+    },
+    "catchRate": 75,
+    "maleRatio": 0.5,
+    "shoulderMountable": true,
+    
+    "baseExperienceYield": 64,
+    "experienceGroup": "slow",
+    "eggCycles": 40,
+    "eggGroups": [
+        "monster",
+        "dragon"
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+        {"item": "minecraft:flint", "quantityRange": "1-2", "percentage": 100},
+{"item": "cobblemon:dragon_fang", "quantityRange": "1", "percentage": 1}
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:leer",
+        "3:bite",
+        "6:falseswipe",
+        "9:assurance",
+        "12:taunt",
+        "15:slash",
+        "18:dragonclaw",
+        "21:scaryface",
+        "24:crunch",
+        "27:dragondance",
+        "30:breakingswipe",
+        "33:focusenergy",
+        "36:dragonpulse",
+        "39:swordsdance",
+        "42:outrage",
+        "45:guillotine",
+        "48:gigaimpact",
+        "tm:takedown",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:bulldoze",
+        "tm:snarl",
+        "tm:swift",
+        "tm:rocktomb",
+        "tm:fling",
+        "tm:dragontail",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:dig",
+        "tm:falseswipe",
+        "tm:brickbreak",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:dragonclaw",
+        "tm:poisonjab",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:taunt",
+        "tm:swordsdance",
+        "tm:ironhead",
+        "tm:dragondance",
+        "tm:substitute",
+        "tm:xscissor",
+        "tm:crunch",
+        "tm:dragonpulse",
+        "tm:surf",
+        "tm:reversal",
+        "tm:gigaimpact",
+        "tm:outrage",
+        "tm:dracometeor",
+        "terablast",
+        "egg:aquatail",
+        "egg:counter",
+        "egg:endeavor",
+        "egg:firstimpression",
+        "egg:harden",
+        "egg:irontail",
+        "egg:nightslash",
+        "tutor:scaleshot"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.axew.desc1",
+        "cobblemon.species.axew.desc2"
+    ],
+    
+    
+    "baseScale": 1.1,
+    "hitbox": {
+        "width": 0.6,
+        "height": 0.7,
+        "fixed": false
+    },
+    "baseFriendship": 35,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 6,
+    "weight": 180
+}

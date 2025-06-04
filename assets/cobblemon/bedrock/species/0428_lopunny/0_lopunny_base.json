@@ -1,0 +1,38 @@
+{
+  "species": "cobblemon:lopunny",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lopunny2",
+      "model": "cobblemon:lopunny2.geo",
+      "texture": "cobblemon:textures/pokemon/0428_lopunny/lopunny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "poser": "cobblemon:lopunny2",
+      "model": "cobblemon:lopunny2.geo",
+      "texture": "cobblemon:textures/pokemon/0428_lopunny/lopunny_shiny.png"
+    },
+    {
+      "aspects": ["mega"],
+      "poser": "cobblemon:lopunny2",
+      "model": "cobblemon:lopunny_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0428_lopunny/lopunny_mega.png",
+      "layers": []
+      },
+      {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "poser": "cobblemon:lopunny2",
+      "model": "cobblemon:lopunny_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0428_lopunny/lopunny_mega_shiny.png",
+      "layers":[]
+      }
+  ]
+}

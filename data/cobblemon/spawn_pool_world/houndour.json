@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "houndour-1",
+          "pokemon": "houndour",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-27",
+          "weight": 13.0,
+          "condition": {
+              "biomes": [
+                  "#minecraft:is_nether"
+              ]
+          }
+      }
+
+      
+    ]
+}

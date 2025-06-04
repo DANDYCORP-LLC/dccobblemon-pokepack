@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+        "id": "houndoom-2",
+        "pokemon": "houndoom",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "rare",
+        "level": "34-47",
+        "weight": 2.0,
+        "condition": {
+            "biomes": [
+                "#minecraft:is_nether"
+            ]
+        }
+    }
+
+    
+  ]
+}

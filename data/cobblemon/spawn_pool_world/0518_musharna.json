@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "musharna-1",
+      "pokemon": "musharna",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 3.2,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": ["#cobblemon:is_overworld"],
+        "neededNearbyBlocks": ["minecraft:white_bed"]
+      }
+    },
+    {
+      "id": "musharna-2",
+      "pokemon": "musharna",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 3.2,
+      "condition": {
+        "biomes": ["#minecraft:is_end"]
+      }
+    }
+  ]
+}

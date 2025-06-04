@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:glalie",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:glalie",
+      "model": "cobblemon:glalie.geo",
+      "texture": "cobblemon:textures/pokemon/0362_glalie/glalie.png",
+      "layers": [{}]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0362_glalie/glalie_shiny.png",
+      "layers": [{}]
+    },
+    {
+      "aspects": ["mega"],
+      "poser": "cobblemon:megaglalie",
+      "model": "cobblemon:megaglalie.geo",
+      "texture": "cobblemon:textures/pokemon/m_glalie/megaglalie.png",
+      "layers": [{}]
+    },
+    {
+      "aspects": ["mega","shiny"],
+      "texture": "cobblemon:textures/pokemon/m_glalie/megaglalie_shiny.png",
+      "layers": [{}]
+    }
+  ]
+}

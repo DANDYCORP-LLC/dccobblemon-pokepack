@@ -1,0 +1,169 @@
+{
+    "implemented": true,
+    "name": "haxorus",
+    "nationalPokedexNumber": 612,
+    "primaryType": "dragon",
+    
+    "abilities": [
+        "moldbreaker",
+        "rivalry",
+        "h:unnerve"
+    ],
+    "baseStats": {
+        "hp": 76,
+        "attack": 147,
+        "defence": 90,
+        "special_attack": 60,
+        "special_defence": 70,
+        "speed": 97
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "times": "night,day,dusk,dawn",
+            "depth": "normal",
+            "light": "0-7"
+        },
+        "moving": {
+            "canLook": true,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": false
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": false
+            },
+            "wanderChance": 1
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    
+    "baseExperienceYield": 243,
+    "experienceGroup": "slow",
+    "eggCycles": 40,
+    "eggGroups": [
+        "monster",
+        "dragon"
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+        {
+            "item": "minecraft:flint",
+            "quantityRange": "1-2",
+            "percentage": 100
+        },
+        {
+            "item": "cobblemon:dragon_fang",
+            "quantityRange": "1-2",
+            "percentage": 50
+        }
+        ]
+    },
+    "moves": [
+        "1:scratch",
+        "1:leer",
+        "1:bite",
+        "1:falseswipe",
+        "9:assurance",
+        "12:taunt",
+        "15:slash",
+        "18:dragonclaw",
+        "21:scaryface",
+        "24:crunch",
+        "27:dragondance",
+        "30:breakingswipe",
+        "33:focusenergy",
+        "36:dragonpulse",
+        "41:swordsdance",
+        "46:outrage",
+        "53:guillotine",
+        "60:gigaimpact",
+        "tm:takedown",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:lowkick",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:bulldoze",
+        "tm:snarl",
+        "tm:swift",
+        "tm:rocktomb",
+        "tm:lowsweep",
+        "tm:fling",
+        "tm:dragontail",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:dig",
+        "tm:falseswipe",
+        "tm:brickbreak",
+        "tm:shadowclaw",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:dragonclaw",
+        "tm:grassknot",
+        "tm:poisonjab",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:taunt",
+        "tm:swordsdance",
+        "tm:ironhead",
+        "tm:dragondance",
+        "tm:substitute",
+        "tm:xscissor",
+        "tm:crunch",
+        "tm:dragonpulse",
+        "tm:surf",
+        "tm:reversal",
+        "tm:earthquake",
+        "tm:gigaimpact",
+        "tm:outrage",
+        "tm:focusblast",
+        "tm:hyperbeam",
+        "tm:closecombat",
+        "tm:dracometeor",
+        "tm:terablast",
+        "egg:aquatail",
+        "egg:counter",
+        "egg:endeavor",
+        "egg:firstimpression",
+        "egg:harden",
+        "egg:irontail",
+        "egg:nightslash",
+        "tutor:scaleshot"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.haxorus.desc1",
+        "cobblemon.species.haxorus.desc2"
+    ],
+    
+    
+    "baseScale": 0.7,
+    "hitbox": {
+        "width": 1.5,
+        "height": 3.3,
+        "fixed": false
+    },
+    "baseFriendship": 35,
+    "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "height": 18,
+    "weight": 1050,
+    "preEvolution": "fraxure"
+}

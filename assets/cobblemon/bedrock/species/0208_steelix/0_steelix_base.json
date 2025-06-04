@@ -1,0 +1,27 @@
+{
+  "species": "cobblemon:steelix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:steelix",
+      "model": "cobblemon:steelix.geo",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/steelix.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0208_steelix/steelix_shiny.png"
+    },
+    {
+      "aspects": ["mega"],
+      "model": "cobblemon:megasteelix.geo",
+      "texture": "cobblemon:textures/pokemon/m_steelix/megasteelix.png"
+    },
+    {
+      "aspects": ["mega","shiny"],
+      "model": "cobblemon:megasteelix.geo",
+      "texture": "cobblemon:textures/pokemon/m_steelix/megasteelix_shiny.png"
+    }
+  ]
+}

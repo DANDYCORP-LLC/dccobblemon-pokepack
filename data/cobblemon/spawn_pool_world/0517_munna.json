@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "munna-1",
+      "pokemon": "munna",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "10-25",
+      "weight": 5.8,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": ["#cobblemon:is_overworld"],
+        "neededNearbyBlocks": ["minecraft:white_bed"]
+      }
+    },
+    {
+      "id": "munna-2",
+      "pokemon": "munna",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "10-25",
+      "weight": 3.0,
+      "condition": {
+        "biomes": ["#minecraft:is_end"]
+      }
+    }
+  ]
+}

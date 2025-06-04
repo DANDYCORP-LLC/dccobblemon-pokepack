@@ -1,0 +1,17 @@
+{
+  "implemented": true,
+  "target": "cobblemon:tympole",
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

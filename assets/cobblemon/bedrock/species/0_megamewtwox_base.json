@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:megamewtwox",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:megamewtwox",
+      "model": "cobblemon:megamewtwox.geo",
+      "texture": "cobblemon:textures/pokemon/m_mewtwo/megamewtwox.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "shiny" ],
+      "poser": "cobblemon:megamewtwox",
+      "model": "cobblemon:megamewtwox.geo",
+      "texture": "cobblemon:textures/pokemon/m_mewtwo/megamewtwox_shiny.png"
+    }
+  ]
+}
