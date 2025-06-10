@@ -3,6 +3,12 @@
   "order": 1,
   "variations": [
     {
+      "aspects": [],
+      "poser": "cobblemon:venusaur2",
+      "model": "cobblemon:venusaur2.geo",
+      "layers": []
+    },
+    {
       "aspects": ["mega"],
       "poser": "cobblemon:venusaur2",
       "model": "cobblemon:venusaurmega.geo",

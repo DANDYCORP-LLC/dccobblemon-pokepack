@@ -3,6 +3,12 @@
   "order": 0,
   "variations": [
     {
+      "aspects": [],
+      "poser": "cobblemon:venusaur2",
+      "model": "cobblemon:venusaur2.geo",
+      "layers": []
+    },
+    {
       "aspects": ["mega"],
       "model": "cobblemon:venusaurmega.geo",
       "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_mega.png",
