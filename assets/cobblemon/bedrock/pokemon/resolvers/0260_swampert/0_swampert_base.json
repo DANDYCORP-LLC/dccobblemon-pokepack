@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:swampert",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:swampert2",
+      "model": "cobblemon:swampert2.geo",
+      "texture": "cobblemon:textures/pokemon/0260_swampert/swampert.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "poser": "cobblemon:swampert2",
+      "model": "cobblemon:swampert2.geo",
+      "texture": "cobblemon:textures/pokemon/0260_swampert/swampert_shiny.png"
+    },
+    {
+      "aspects": ["mega"],
+      "poser": "cobblemon:swampert2",
+      "model": "cobblemon:swampert_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0260_swampert/swampert_mega.png",
+      "layers": []
+    },
+    {
+      "aspects": ["mega", "shiny"],
+      "poser": "cobblemon:swampert2",
+      "model": "cobblemon:swampert_mega.geo",
+      "texture": "cobblemon:textures/pokemon/0260_swampert/swampert_mega_shiny.png"
+    }
+  ]
+}

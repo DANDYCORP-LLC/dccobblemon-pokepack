@@ -1,13 +1,11 @@
 {
   "species": "cobblemon:lunala",
-  "order": 0,
+  "order": 1,
   "variations": [
     {
-      "aspects": [],
       "poser": "cobblemon:lunala",
       "model": "cobblemon:lunala.geo",
-      "texture": "cobblemon:textures/pokemon/0792_lunala/lunala.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/0792_lunala/lunala.png"
     },
     {
       "aspects": ["shiny"],
