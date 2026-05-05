@@ -116,7 +116,7 @@
     "tutor:uproar",
     "tutor:zenheadbutt"
   ],
-  "labels": ["gen7", "ultra_beast"],
+  "labels": ["gen7", "ultra_beast" ,"legendary"],
   "pokedex": ["cobblemon.species.blacephalon.desc"],
   "evolutions": [],
   "baseScale": 1,

@@ -93,7 +93,7 @@
     "tm:uturn",
     "tm:zenheadbutt"
   ],
-  "labels": ["gen9"],
+  "labels": [ "gen9", "legendary" ],
   "aspects": [],
   "height": 12,
   "weight": 398,

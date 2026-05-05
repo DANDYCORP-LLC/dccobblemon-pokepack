@@ -58,7 +58,7 @@
     "tm:grassknot",
     "tm:scald"
   ],
-  "labels": ["gen7"],
+  "labels": ["gen7", "legendary"],
   "pokedex": ["cobblemon.species.tapufini.desc"],
   "preEvolution": null,
   "evolutions": [],

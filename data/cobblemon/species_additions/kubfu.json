@@ -29,7 +29,7 @@
       "requiredContext": "cobblemon:expert_belt"
     }
   ],
-
+  "labels": [ "gen2", "mythical", "legendary" ],
   "behaviour": {
     "moving": {
       "canLook": true,

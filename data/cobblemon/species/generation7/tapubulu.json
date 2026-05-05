@@ -52,7 +52,7 @@
     "tm:frustration",
     "tm:return"
   ],
-  "labels": ["gen7"],
+  "labels": [ "gen7", "legendary" ],
   "pokedex": ["cobblemon.species.tapubulu.desc"],
   "preEvolution": null,
   "evolutions": [],

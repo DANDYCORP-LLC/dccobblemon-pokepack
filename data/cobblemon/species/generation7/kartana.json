@@ -87,7 +87,7 @@
     "tutor:vacuumwave",
     "tutor:xscissor"
   ],
-  "labels": ["gen7", "ultra_beast"],
+  "labels": [ "gen7", "ultra_beast", "legendary" ],
   "pokedex": ["cobblemon.species.kartana.desc"],
   "evolutions": [],
   "baseScale": 0.75,

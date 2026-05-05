@@ -124,7 +124,11 @@
     "tutor:signalbeam",
     "tutor:telekinesis"
   ],
-  "labels": ["gen5", "mythical"],
+  "labels": [
+    "gen5",
+    "mythical",
+    "legendary"
+  ],
   "pokedex": [
     "cobblemon.species.victini.desc1",
     "cobblemon.species.victini.desc2"

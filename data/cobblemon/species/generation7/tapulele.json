@@ -58,7 +58,7 @@
     "tm:energyball",
     "tm:focusblast"
   ],
-  "labels": ["gen7"],
+  "labels": [ "gen7", "legendary" ],
   "pokedex": ["cobblemon.species.tapulele.desc"],
   "preEvolution": null,
   "evolutions": [],

@@ -131,7 +131,7 @@
     "tutor:telekinesis",
     "tutor:waterpulse"
   ],
-  "labels": ["gen3", "mythical"],
+  "labels": ["gen3", "mythical", "legendary"],
   "pokedex": [
     "cobblemon.species.jirachi.desc1",
     "cobblemon.species.jirachi.desc2"

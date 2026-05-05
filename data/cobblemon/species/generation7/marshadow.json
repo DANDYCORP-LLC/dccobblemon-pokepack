@@ -113,7 +113,7 @@
     "tutor:skittersmack",
     "tutor:snatch"
   ],
-  "labels": ["gen7", "mythical"],
+  "labels": [ "gen7", "mythical", "legendary" ],
   "pokedex": ["cobblemon.species.marshadow.desc"],
   "evolutions": [],
   "baseScale": 0.5,

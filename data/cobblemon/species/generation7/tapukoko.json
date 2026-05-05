@@ -57,7 +57,7 @@
     "tm:return",
     "tm:doubleteam"
   ],
-  "labels": ["gen7"],
+  "labels": [ "gen7", "legendary" ],
   "pokedex": ["cobblemon.species.tapukoko.desc"],
   "preEvolution": null,
   "evolutions": [],
